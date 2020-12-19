@@ -1,0 +1,15 @@
+git init
+git add .
+git commit -m 'initial commit'
+git push origin master
+*******
+实现删除工作区的文件，并同步到GIT上面
+rm
+git rm
+git commit 
+git push
+********
+只删除GIT仓库中的某文件，工作区的该文件想保留
+git rm --cached <file>
+git commit -m
+git push
